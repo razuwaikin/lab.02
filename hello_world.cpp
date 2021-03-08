@@ -1,5 +1,7 @@
 #include <iostream>
+#include <string>
 using namespace std;
 int main(){
-cout<<"**HELLO WORLD**"<<endl;
+string a; cin>>a;
+cout<<endl<<"HELLO WORLD FROM "<<a<<endl;
 return 1;}
