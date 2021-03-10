@@ -2,16 +2,20 @@
 #include <string>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int main(){//i like my style of code
 string a; std::cin>>a;//deleted"using namespace std"
 std::cout<<endl<<"HELLO WORLD, FROM "<<a<<" !"<<endl;//worked hard on this part
 return 1;}
 =======
+=======
+>>>>>>> new style hw
 int
 main()
 {
   string a;
   std::cin >> a; // deleted"using namespace std"
+<<<<<<< HEAD
   std::cout << endl << "HELLO WORLD FROM " << a << endl;
   return 1;
 }
@@ -22,3 +26,8 @@ int main(){
   std::cout << endl << "HELLO WORLD FROM " << a << endl;
   return 1;}
 >>>>>>> reworked hw
+=======
+  std::cout << endl << "HELLO WORLD FROM " << a << endl;
+  return 1;
+}
+>>>>>>> new style hw
