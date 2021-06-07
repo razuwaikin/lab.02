@@ -1,4 +1,4 @@
-**part 1**
+#**part 1**
 **1)** $ cd ${GITHUB_USERNAME}/workspace/projects; mkdir lab.02; cd lab.02
 $ git init; git remote add origin https://github.com/${GITHUB_USERNAME}/lab.02.git
 
@@ -41,7 +41,7 @@ return 1;}
  
  
 
-**part 2**
+#**part 2**
  
 **1)**$ git checkout -b patch1
  
@@ -90,7 +90,7 @@ $ git checkout master
  
  
 
-**part 3**
+#**part 3**
  
 **1)**$ git checkout -b patch2
  
