@@ -6,7 +6,6 @@ $ git init; git remote add origin https://github.com/${GITHUB_USERNAME}/lab.02.g
 
 **3)**$ touch hello_world.cpp; edit hello_world.cpp
 
-
 #include <iostream>
 using namespace std;
 int main() {
@@ -48,7 +47,6 @@ return 1;}
  
 **2)**$ edit hello_world.cpp
 
- 
 #include <iostream>
 #include <string>
 int main(){
@@ -77,13 +75,9 @@ return 1;}
 **8)**ручками на сайте
  
 **9)**$ git checkout master
- 
 $ git merge patch1
- 
 $ git push origin master
- 
 $ git push origin :patch1
- 
 $ git checkout master 
 
 **10)**$ git pull origin master
@@ -115,18 +109,15 @@ return 1;}
 
 **5)**
  
-**6)**$ git checkout master
- 
+**6)**
+$ git checkout master
 $ git checkout patch2
- 
 $ git rebase master
- 
 $ git add hello_world.cpp; git add hello_world.cpp
- 
 $ rebase --continue 
  
 **7)**$ git push --force origin patch2
  
-**8)**$ git checkout master
- 
+**8)**
+$ git checkout master
 $ git merge patch2
