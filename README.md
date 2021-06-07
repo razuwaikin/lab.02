@@ -1,5 +1,6 @@
-#**part 1**
-**1)** $ cd ${GITHUB_USERNAME}/workspace/projects; mkdir lab.02; cd lab.02
+**part 1**
+**1)** 
+$ cd ${GITHUB_USERNAME}/workspace/projects; mkdir lab.02; cd lab.02
 $ git init; git remote add origin https://github.com/${GITHUB_USERNAME}/lab.02.git
 
 **2)**$ touch README.md; git add README.md; git commit -m"added readme" -a ; git push origin master
